@@ -22,19 +22,46 @@
     background-color: #BE0027;
     color: #FFF;
 }
+.my-blue {
+    background-color: #1798BF;
+    color: #FFF;
+}
 .my-green {
     background-color: #598C14;
     color: #FFF
 }
-.why-us::before{
-    content: '';
-    position: absolute;
-    background-image: url("./is1.svg");
-    z-index: 91;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-repeat-y: no-repeat;
+.menu-bar {
+    width: 25px;
+    margin-top: 5px;
+    border-bottom: 3px solid black;
+    display: block;
 }
+.omenu {
+    position: relative;
+}
+.omenu *{
+    position: absolute;
+
+
+}
+.bar-1 {
+    margin-top: 0;
+}
+.omenu .bar-1 {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) rotatez(60deg);
+
+}
+.omenu .bar-2 {
+    display: none;
+}
+.omenu .bar-3 {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) rotatez(-60deg);
+
+
+}
+
 

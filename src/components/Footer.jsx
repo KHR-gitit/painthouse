@@ -31,10 +31,10 @@ const Footer = () => {
         <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CONTACT US</h2>
         <nav className="list-none mb-10">
           <li>
-            <button href="tel:0456 456 461" className="text-gray-600 hover:text-gray-800">+61 456 456 461</button>
+            <a href="tel:0456 456 461" className="text-gray-600 hover:text-gray-800">+61 456 456 461</a>
           </li>
           <li>
-            <button href="mailto:info@painthouse.com" className="text-gray-600 hover:text-gray-800">info@painthouse.com</button>
+            <a href="mailto:info@painthouse.com" className="text-gray-600 hover:text-gray-800">info@painthouse.com</a>
           </li>
         </nav>
       </div>

@@ -10,18 +10,22 @@ import Gallery from './pages/Gallery';
 
 function App() {
   const menuHover = (e) =>{
-    let num = Math.floor(Math.random() * 3);
+    let num = Math.floor(Math.random() * 4);
     if(num === 0) {
         e.target.classList.add('my-orange');
     } else if (num === 1) {
-        e.target.classList.add('my-red');
+        e.target.classList.add('my-blue');
     } else if (num === 2) {
         e.target.classList.add('my-green');
-    }
+    } else if (num === 3) {
+      e.target.classList.add('my-red');
+  }
+    
 }
 const menuRemoveHover = (e) => {
-    e.target.classList.remove('my-red');
-    e.target.classList.remove('my-orange');
+  e.target.classList.remove('my-blue');
+  e.target.classList.remove('my-red');
+  e.target.classList.remove('my-orange');
     e.target.classList.remove('my-green');
 }
 const scrollToTop = () => {
