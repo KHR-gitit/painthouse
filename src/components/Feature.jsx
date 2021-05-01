@@ -1,7 +1,7 @@
 const Feature = ({menuHover, menuRemoveHover}) => {
     return (
         <section className="bg-gray-100 py-32 lg:bg-gray-200">
-            <div className="container mx-auto">
+            <div className="w-11/12 md:10/12 mx-auto">
             <h1 className="text-5xl text-center ">Our Speciality</h1>
             <div className="lg:hidden pt-32">
                 <div className="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-300 sm:flex-row flex-col">

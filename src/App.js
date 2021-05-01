@@ -49,7 +49,7 @@ const scrollToTop = () => {
           <Gallery/>
         </Route>
       </Switch>
-      <Footer/>
+      <Footer toTop={scrollToTop}/>
     </div>
     </Router>
   );

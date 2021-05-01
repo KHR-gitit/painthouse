@@ -1,5 +1,6 @@
+import { Link } from 'react-router-dom';
 import logo from './../logo.png';
-const Footer = () => {
+const Footer = ({toTop}) => {
     return (
 <footer className="text-gray-600 body-font bg-gray-200 ">
   <div className="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
@@ -14,16 +15,16 @@ const Footer = () => {
         <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
         <nav className="list-none mb-10">
           <li>
-            <button className="text-gray-600 hover:text-gray-800">First Link</button>
+            <Link to="/" className="text-gray-600 hover:text-gray-800" onClick={toTop}>Home</Link>
           </li>
           <li>
-            <button className="text-gray-600 hover:text-gray-800">Second Link</button>
+            <Link to="/contact" className="text-gray-600 hover:text-gray-800" onClick={toTop}>Contact</Link>
           </li>
           <li>
-            <button className="text-gray-600 hover:text-gray-800">Third Link</button>
+            <Link to="/about" className="text-gray-600 hover:text-gray-800" onClick={toTop}>About</Link>
           </li>
           <li>
-            <button className="text-gray-600 hover:text-gray-800">Fourth Link</button>
+            <Link to="gallery" className="text-gray-600 hover:text-gray-800" onClick={toTop}>Gallery</Link>
           </li>
         </nav>
       </div>
@@ -31,10 +32,10 @@ const Footer = () => {
         <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CONTACT US</h2>
         <nav className="list-none mb-10">
           <li>
-            <a href="tel:0456 456 461" className="text-gray-600 hover:text-gray-800">+61 456 456 461</a>
+            <a href="tel:0403 855 291" className="text-gray-600 hover:text-gray-800">+61 403 855 291</a>
           </li>
           <li>
-            <a href="mailto:info@painthouse.com" className="text-gray-600 hover:text-gray-800">info@painthouse.com</a>
+            <a href="mailto:info@painthouse.com.au" className="text-gray-600 hover:text-gray-800">info@painthouse.com.au</a>
           </li>
         </nav>
       </div>
@@ -42,12 +43,12 @@ const Footer = () => {
         <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">SUBSCRIBE</h2>
         <div className="flex xl:flex-nowrap md:flex-nowrap lg:flex-wrap flex-wrap justify-center items-end md:justify-start">
           <div className="relative w-40 sm:w-auto xl:mr-4 lg:mr-0 sm:mr-4 mr-2">
-            <label htmlFor="footer-field" className="leading-7 text-sm text-gray-600">Placeholder</label>
+            <label htmlFor="footer-field" className="leading-7 text-sm text-gray-600">Enter your email</label>
             <input type="text" id="footer-field" name="footer-field" className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:bg-transparent focus:ring-2 focus:ring-indigo-200 focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
           </div>
           <button className="lg:mt-2 xl:mt-0 flex-shrink-0 inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">Button</button>
         </div>
-        <p className="text-gray-500 text-sm mt-2 md:text-left text-center">Bitters chicharrones fanny pack
+        <p className="text-gray-500 text-sm mt-2 md:text-left text-center">Join our NEWS feed
         </p>
       </div>
     </div>

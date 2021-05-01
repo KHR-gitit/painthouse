@@ -5,16 +5,16 @@ const Contact = () => {
                 <div className="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
                     <div className="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
                     <iframe width="100%" height="100%" className="absolute inset-0" frameBorder="0" title="map" marginHeight="0" marginWidth="0" scrolling="no" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBd1Tg2rehrj1UFkZoMCPSB2YXmn_6t2-E&q=PaintHouse" ></iframe>
-                    <div className="bg-white relative flex flex-wrap py-6 rounded shadow-md">
+                    <div className="bg-white relative flex flex-wrap py-6 md:px-9 rounded shadow-md">
                         <div className="lg:w-1/2 px-6">
                         <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">ADDRESS</h2>
-                        <p className="mt-1">Photo booth tattooed prism, portland taiyaki hoodie neutra typewriter</p>
+                        <p className="mt-1">Melbourne, VIC</p>
                         </div>
                         <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
                         <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">EMAIL</h2>
-                        <button className="text-indigo-500 leading-relaxed">example@email.com</button>
+                        <a href='mailto:info@painthouse.com.au' className="text-indigo-500 leading-relaxed">info@painthouse.com.au</a>
                         <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">PHONE</h2>
-                        <p className="leading-relaxed">123-456-7890</p>
+                        <a href='tel:0403 855 291' className="leading-relaxed">0403 855 291</a>
                         </div>
                     </div>
                     </div>
