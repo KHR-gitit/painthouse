@@ -38,7 +38,6 @@ const Portifolio = () => {
     fetchData();
 
     }, []);
-    console.log(data);
 
 return (
 
