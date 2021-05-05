@@ -1,13 +1,13 @@
 const Hero = ({menuHover, menuRemoveHover}) => {
     return (
         <section className="text-gray-600 w-100 body-font relative h-screen overflow-hidden">
-            <img className="absolute -z-10 w-screen h-screen object-cover" src="https://images.unsplash.com/photo-1615668501966-577e09f23762?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2551&q=80" alt=""/>
+            <img className="absolute -z-10 w-screen h-screen object-cover" src="https://kaboompics.com/download/4f49bf0f7976fcf2d68297b315ab21a2/medium" alt=""/>
             <div className="w-11/12 md:w-10/12 mx-auto">
             <div className="h-screen w-100 mx-auto flex items-center relative flex-row  2xl:container">
 
                 <div className="mx-auto text-center hero-bg flex flex-col lg:mx-5 md:w-4/5 md:items-center lg:items-start lg:text-left lg:flex-grow lg:px-24 lg:w-1/3">
                 <h1 className="title-font text-4xl md:text-6xl mb-4 font-medium text-white">We provide Painting Services</h1>
-                <p className="mb-8 leading-relaxed text-gray-300 md:text-xl">Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray.</p>
+                <p className="mb-8 leading-relaxed text-gray-300 md:text-xl">We believe in quality, professionalism and integrity. When you plan to hire Painthouse pinting services, you will find a trustworthy team that values ​​the same things you do. We know you are busy, so when we say that we will complete the work with the highest quality and have a stress-free experience, we will complete it on time.</p>
                     <div className="flex justify-center">
                         <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none  rounded text-lg" onMouseOver={menuHover} onMouseOut={menuRemoveHover}>Free Quote</button>
                         <button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none rounded text-lg" onMouseOver={menuHover} onMouseOut={menuRemoveHover}>Learn More</button>
